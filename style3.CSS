@@ -1,0 +1,736 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(Desktop\ -\ 14\ \(3\).png);
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+
+.logo{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist a{
+    color: rgb(0, 0, 0);
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    word-wrap: break-word;
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+.gumball {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #7EDBF4;
+    margin-top: 9%;
+}
+
+.gumball img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+.gumball h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.gumball p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+    
+}
+
+.Darwin {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #EE935E;
+    margin-top: 1%;
+}
+
+.Darwin img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Darwin h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Darwin p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+    
+}
+
+.Anais {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FDB7C2;
+    margin-top: 1%;
+}
+
+.Anais img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Anais h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Anais p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;   
+}
+
+.Nicole {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #7EDBF4;
+    margin-top: 1%;
+}
+
+.Nicole img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Nicole h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Nicole p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.Richard {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FDB7C2;
+    margin-top: 1%;
+}
+
+.Richard img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Richard h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Richard p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+    
+}
+
+.Frankie {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #A9A48E;
+    margin-top: 1%;
+}
+
+.Frankie img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Frankie h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Frankie p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+    
+}
+
+.Louie {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #8A8A8A;
+    margin-top: 1%;
+}
+
+.Louie img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Louie h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Louie p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+    
+}
+
+.Joanna {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FDB7C2;
+    margin-top: 1%;
+}
+
+.Joanna img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Joanna h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Joanna p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+    
+}
+
+.Penny {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #FACC29 30%, #D47340 100%);
+    margin-top: 1%;
+}
+
+.Penny img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Penny h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Penny p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.Joseph {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #EFE854;
+    margin-top: 1%;
+}
+
+.Joseph img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Joseph h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Joseph p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.Tobias {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #6CF6FF 30%, #FF745E 47.92%, #FFCD73 70%);
+    margin-top: 1%;
+}
+
+.Tobias img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Tobias h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Tobias p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.Sarah {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #EFE854;
+    margin-top: 1%;
+}
+
+.Sarah img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Sarah h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Sarah p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.Rob {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #D4D0C1;
+    margin-top: 1%;
+}
+
+.Rob img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Rog h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Rob p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.Ocho {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #887A78;
+    margin-top: 1%;
+}
+
+.Ocho img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Ocho h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Ocho p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.Steve {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F1E8F3;
+    margin-top: 1%;
+}
+
+.Steve img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Steve h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Steve p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.Carrie {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #D380B3;
+    margin-top: 1%;
+}
+
+.Carrie img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Carrie h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Carrie p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.Bob {
+    width: auto;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #EEEDE9;
+    margin-top: 1%;
+}
+
+.Bob img{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.Bob h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 20%;
+}
+
+.Bob p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-align: justify;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
